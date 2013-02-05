@@ -75,6 +75,7 @@ int DTMF::getDTMF()
         break;
     }
   }
+  else return -1;
 }
 
 /**
