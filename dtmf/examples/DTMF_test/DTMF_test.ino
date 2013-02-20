@@ -19,5 +19,7 @@ void loop()
   //dtmf.playDTMF();
   
   // Read DTMF codes one by one and print it on Serial
-  dtmf.getDTMF();
+  int myDtmf;
+  myDtmf = dtmf.getDTMF();
+  Serial.println(myDtmf);
 }
